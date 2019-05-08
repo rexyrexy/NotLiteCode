@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
 	<TargetFrameworks>netcoreapp2.1;net452</TargetFrameworks>
   </PropertyGroup>
@@ -10,11 +10,8 @@
     <OutputPath>bin\Release\net452\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <PackageReference Include="GroBuf" Version="1.4.6" />
+    <PackageReference Include="NotLiteCode" Version="1.5.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="mscorlib">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+
 </Project>
